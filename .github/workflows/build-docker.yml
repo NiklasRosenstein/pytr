@@ -2,10 +2,10 @@ name: Build and Push Docker Image
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ glorious-evolution ]
     tags: [ 'v*.*.*' ]
   pull_request:
-    branches: [ develop ]
+    branches: [ glorious-evolution ]
 
 env:
   REGISTRY: ghcr.io
